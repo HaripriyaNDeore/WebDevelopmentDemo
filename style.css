@@ -1,0 +1,100 @@
+
+#menu li {
+    margin-right: 40px
+}
+
+#menu li a
+{
+      text-decoration: none;
+}
+nav {
+    background-color: lightgray;
+    position: sticky;
+    top: 0;
+    height: 40px;
+}
+#menu {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+header marquee p{
+    position:relative;
+    top:-17px
+}
+#banner {
+    margin-top: 3px;
+    positon:relative;
+    top:2px;
+    background-image: url('photo-1511649475669-e288648b2339.avif');
+    height: 200px;
+    width: 100%;
+    background-position: bottom;
+}
+#banner h1
+{
+    position:absolute;
+    top:82px;
+    left:84px;
+}
+.main-content {
+    position: relative;
+    top: -142px;
+    margin-left: 240px;
+    width: 70%;
+   /* margin-left: 248px;
+    width: 77%;*/
+    overflow-y: auto;
+}
+.left-panel {
+    position: relative;
+    top: 12%;
+    background-color: lightgrey;
+    width: 215px;
+    height: 200px;
+}
+}
+.left-panel ul li {
+    position: relative;
+    top: 18px;
+    padding-top:14px
+}
+p 
+{
+
+}
+.footer{
+    position:relative;
+    height:67px;
+    background:black;
+    margin-top:380px;
+}
+.footer p {
+    position: absolute;
+    top:10px;
+    color:white;
+    left:10px;
+}
+
+a.hover{
+    color:white;
+    background:grey;
+    padding:8px;
+    font-size:16px;
+}
+a:link
+{
+
+}
+a:visited
+{
+    color:darkblue;
+}
+a:active {
+    color: red;
+}
+.img {
+    
+    width: 200px;
+    height: 200px;
+}

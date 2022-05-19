@@ -2,11 +2,11 @@
     background-color:aqua;
     font-size:40px;
 }
-/*div{
+div{
     background-color:blanchedalmond;
     font-size:30px;
     color:black;
-}*/
+}
 #p2 {
     background-color:bisque;
 }
@@ -29,6 +29,7 @@ nav {
     background-color: #dbe9e9;
     height: 48px;
 }
+
 #menu
 {
     list-style-type:none;
