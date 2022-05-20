@@ -1,0 +1,57 @@
+<html>
+    <head>
+    </head>
+        <body>
+            <script>
+                var age = 12;
+                if (age >= 18) {
+                    console.log("valid user");
+                }
+                else
+                {
+                    console.log("invalid user");
+                }
+                for (var i = 1; i <= 10; i++)
+                {
+                    console.log(i);
+                }
+
+                //working with function
+
+                function add(n1, n2)
+                {
+                    var n1=10,n2=30;
+                    add = n1 + n2;
+                    console.log(add);
+                }
+
+                function sub(n1, n2)
+                {
+                    var sub;
+                    sub = n1 - n2;
+                    console.log(sub);
+                }
+
+                function display(empid, empname, salary)
+                {
+                    console.log(+empid + " " + empname + " " + salary);
+                }
+                function sub2(n1, n2)
+                {
+                    var sub;
+                    sub = n1 - n2;
+                    return sub;
+                }
+
+                //calling the function
+
+                add();
+                sub(22, 12);
+                display(1, "Amol", 30000);
+                var result=sub2(23, 10);
+                console.log(result);
+            
+            </script>
+        </body>
+    
+</html>
